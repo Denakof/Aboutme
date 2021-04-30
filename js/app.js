@@ -148,6 +148,8 @@ for (let a = 1; a < 6; a++) {
 alert('the correct answers are:  ' + ' tennis ' + ' badminton ' + ' swimming ' + 'kickboxing' + 'tabletennis  ' + 'bowling')
 
 alert("YOUR SCORE IS =" + score)
+alert('see you again'+ userNAme)
+
 
 
 
