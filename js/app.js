@@ -116,7 +116,7 @@ function f5() {
 }
 
 f5(Q5);
-
+console.log(f5)
 
 
 let myAge = Number(prompt("guess my age"))
@@ -146,7 +146,7 @@ function f6() {
     }
 }
 f6(myAge);
-
+console.log(f6);
 
 
 
@@ -186,7 +186,7 @@ function f7() {
 }
 
 f7(A7);
-
+console.log(f7);
 alert('the correct answers are:  ' + ' tennis ' + ' badminton ' + ' swimming ' + 'kickboxing' + 'tabletennis  ' + 'bowling')
 
 alert("YOUR SCORE IS =" + score)
