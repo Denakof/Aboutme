@@ -125,22 +125,26 @@ function f6() {
     for (let i = 0; i < 5; i++) {
         if (myAge == 22) {
             alert("correct")
+            console.log("correct")
             score = score + 1
             break;
         }
 
         else if (i == 3) {
             alert('the correct answer is 22')
+            console.log('the correct answer is 22')
             break;
         }
 
         else if (myAge < 22) {
             alert("too low")
+            console.log('too low')
             myAge = Number(prompt("guess my age"))
 
 
         } else {
             alert("too high")
+            console.log("too high")
             myAge = Number(prompt("guess my age"))
         }
     }
@@ -161,6 +165,7 @@ function f7() {
         for (let i = 0; i < Q7.length; i++) {
             if (A7 === Q7[i]) {
                 alert('yes this is one of them')
+                console.log('yes this is one of them')
                 flag = true;
                 score = score + 1;
 
@@ -176,6 +181,8 @@ function f7() {
         }
         if (flag === false) {
             alert('sorry it is not one of them')
+            console.log('sorry it is not one of them')
+
             A7 = prompt("what is my fav sports");
 
 
