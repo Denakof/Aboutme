@@ -1,6 +1,5 @@
 'user strict'
 let userNAme = prompt('enter your name please').toLowerCase();
-console.log('hello' + userNAme)
 alert("hello " + userNAme)
 alert("answer using yes or no y or n")
 let score = 0;
@@ -14,13 +13,11 @@ function f1() {
     switch (Q1) {
         case "yes":
         case "y":
-            console.log("it is correct")
             alert("its correct")
             score = score + 1
             break;
         case "no":
         case "n":
-            console.log("false, i love sushii")
             alert("false i love sushii")
             break;
     }
@@ -36,13 +33,11 @@ function f2() {
     switch (Q2) {
         case "yes":
         case "y":
-            console.log("wrong, i don't know how to cook")
             alert("wrong, i don't know how to cook")
             score = score + 1
             break;
         case "no":
         case "n":
-            console.log("you know me")
             alert("you know me")
         default:
             break;
@@ -57,14 +52,12 @@ function f3() {
     switch (Q3) {
         case "yes":
         case "y":
-            console.log("correct, i adore pets")
             alert("correct, i adore pets")
             score = score + 1
             break;
         case "no":
         case "n":
 
-            console.log("noo, i love them");
             alert("No!, i love them")
             break;
     }
@@ -79,14 +72,12 @@ function f4() {
     switch (Q4) {
         case "yes":
         case "y":
-            console.log("correct, i love kick-boxing")
             alert("correct, i love kick-boxing")
             score = score + 1
             break;
 
         case "no":
         case "n":
-            console.log("wrong. it is one of my fav sports");
             alert("wrong. it is one of my fav sports")
             break
     }
@@ -102,13 +93,11 @@ function f5() {
     switch (Q5) {
         case "yes":
         case "y":
-            console.log("yes i know how to swim")
             alert("yes i know how to swim")
             score = score + 1
             break;
         case "no":
         case "n":
-            console.log("no i know how to swim");
             alert("no i know how to swim")
         default:
             break;
@@ -116,7 +105,6 @@ function f5() {
 }
 
 f5(Q5);
-console.log(f5)
 
 
 let myAge = Number(prompt("guess my age"))
@@ -125,32 +113,27 @@ function f6() {
     for (let i = 0; i < 5; i++) {
         if (myAge == 22) {
             alert("correct")
-            console.log("correct")
             score = score + 1
             break;
         }
 
         else if (i == 3) {
             alert('the correct answer is 22')
-            console.log('the correct answer is 22')
             break;
         }
 
         else if (myAge < 22) {
             alert("too low")
-            console.log('too low')
             myAge = Number(prompt("guess my age"))
 
 
         } else {
             alert("too high")
-            console.log("too high")
             myAge = Number(prompt("guess my age"))
         }
     }
 }
 f6(myAge);
-console.log(f6);
 
 
 
@@ -165,7 +148,6 @@ function f7() {
         for (let i = 0; i < Q7.length; i++) {
             if (A7 === Q7[i]) {
                 alert('yes this is one of them')
-                console.log('yes this is one of them')
                 flag = true;
                 score = score + 1;
 
@@ -181,7 +163,6 @@ function f7() {
         }
         if (flag === false) {
             alert('sorry it is not one of them')
-            console.log('sorry it is not one of them')
 
             A7 = prompt("what is my fav sports");
 
@@ -193,7 +174,6 @@ function f7() {
 }
 
 f7(A7);
-console.log(f7);
 alert('the correct answers are:  ' + ' tennis ' + ' badminton ' + ' swimming ' + 'kickboxing' + 'tabletennis  ' + 'bowling')
 
 alert("YOUR SCORE IS =" + score)
